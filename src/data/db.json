@@ -1,0 +1,141 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Adelia",
+      "cellphone": "3122222222",
+      "password": "password",
+      "url": "https://us.123rf.com/450wm/el4anes/el4anes1805/el4anes180500040/el4anes180500040.jpg",
+      "onLine": false,
+      "phrase": "hoy es hoy y mañana es mañana",
+      "date": 1675541911715
+    },
+    {
+      "id": 2,
+      "username": "Jurany",
+      "cellphone": "3111111111",
+      "password": "password",
+      "url": "https://thumbs.dreamstime.com/z/el-icono-rizado-lindo-de-la-cara-muchacha-sobre-perfil-avatar-mujer-del-fondo-burbuja-charla-aisl%C3%B3-113072419.jpg",
+      "onLine": false,
+      "phrase": "A buen tiempo, buen clima",
+      "date": 1675397923623
+    },
+    {
+      "username": "Luis",
+      "cellphone": "3124569042",
+      "password": "gatita",
+      "url": "https://images.vexels.com/content/145908/preview/male-avatar-maker-2a7919.png",
+      "onLine": true,
+      "phrase": "ayer es ayer",
+      "date": 1675532099714,
+      "id": 3
+    },
+    {
+      "username": "Mati",
+      "cellphone": "3124569042",
+      "password": "1234",
+      "url": "https://e7.pngegg.com/pngimages/799/987/png-clipart-computer-icons-avatar-icon-design-avatar-heroes-computer-wallpaper-thumbnail.png",
+      "onLine": false,
+      "phrase": "ayer es ayer",
+      "date": 1675532099714,
+      "id": 4
+    },
+    {
+      "username": "Usuario 1",
+      "cellphone": "3333333333",
+      "password": "password",
+      "url": "https://tse1.mm.bing.net/th?id=OIP.1FBnyDkCWu_emCAUnr7dtgHaHa&pid=Api&P=0",
+      "phrase": "el futuro es mañana",
+      "onLine": true,
+      "date": 1675818373403,
+      "id": 5
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "idUser1": 2,
+      "idUser2": 3,
+      "conversation": [
+        {
+          "id": 1,
+          "sendBy": 3,
+          "date": "2023-01-23",
+          "hour": "16:42:50.105-05:00",
+          "message": "hola pepito hoa",
+          "flag": true
+        },
+        {
+          "id": 2,
+          "sendBy": 1,
+          "date": "2023-02-01",
+          "hour": "16:42:50.105-05:00",
+          "message": "hola!!",
+          "flag": true
+        },
+        {
+          "id": 3,
+          "sendBy": 3,
+          "date": "2023-02-05",
+          "hour": "17:40:17.158-05:00",
+          "message": "como estas?",
+          "flag": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "idUser1": 1,
+      "idUser2": 3,
+      "conversation": [
+        {
+          "id": 1,
+          "sendBy": 2,
+          "date": "2023-01-28",
+          "hour": "16:42:50.105-05:00",
+          "message": "hola",
+          "flag": true
+        },
+        {
+          "id": 2,
+          "sendBy": 3,
+          "date": "2023-02-03",
+          "hour": "16:50:50.105-05:00",
+          "message": "quien eres?",
+          "flag": false
+        },
+        {
+          "id": 3,
+          "sendBy": 2,
+          "date": "2023-02-04",
+          "hour": "20:10:50.105-05:00",
+          "message": "pues yo",
+          "flag": true
+        },
+        {
+          "id": 4,
+          "sendBy": 3,
+          "date": "2023-02-04",
+          "hour": "20:10:50.105-05:00",
+          "message": "no se quien? :)",
+          "flag": false
+        }
+      ]
+    },
+    {
+      "idUser1": 3,
+      "idUser2": 4,
+      "conversation": [
+        {
+          "id": 1,
+          "sendBy": 3,
+          "date": "2023-02-05",
+          "hour": "23:17:22.146-05:00",
+          "message": "hola mat2",
+          "flag": false
+        }
+      ],
+      "id": 3
+    }
+  ]
+}
